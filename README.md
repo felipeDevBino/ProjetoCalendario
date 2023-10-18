@@ -5,4 +5,5 @@ antes o escopo do projeto era nada mais do que mostrar datas de um dia,
 mês e ano específico escolhido pelo usuário, porém o escopo do projeto foi
 voltado para a criação de notas seguindo a ideia de escolha de datas para 
 tal e utilizando FileOutPutStream para gerar um arquivo .txt com as adições
-dentro nele.*
+dentro dele, assim, cada vez que o programa for executado e o arquivo .txt
+que foi criado já estiver no mesmo diretório que ele, este será atualizado.*
