@@ -4,6 +4,13 @@ import java.io.PrintStream;
 
 public class CriaArquivoNota {
     
+    /**
+    Função que cria o arquivo .txt contendo as notas que foram criadas, inclusive outras 
+    que forem inseridas posteriormente caso o programa seja reiniciado, este arquivo
+    sempre será atualizado conforme a escolha do usuário em criar ou não o arquivo .txt
+   
+    @param nota  
+    **/
     public void criaArquivoNota(Nota nota) {
 
         try {

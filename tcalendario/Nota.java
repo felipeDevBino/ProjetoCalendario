@@ -9,6 +9,9 @@ public class Nota {
     protected int mes[], vMes = 1;
     protected String nota[];
 
+    /**
+     Método para a definição de quantidade, escolha de data e criação da nota 
+    **/
     public void criaNota() {
 
         try {
@@ -20,7 +23,7 @@ public class Nota {
             System.out.println("Quantidade inválida!");
             criaNota();
         }
-            
+
         ano = new int[Nota.quantidadeDeDatas];
         dia = new int[Nota.quantidadeDeDatas];
         mes = new int[Nota.quantidadeDeDatas];
@@ -43,6 +46,11 @@ public class Nota {
         
     }
     
+    /**
+     Método que imprime uma nota de acordo com a data que o usuário digitar para confirmar sua posição, dentro do loop
+     while, se a nota for correta em seus atributos e for coerente com uma nota que exista, a nota é encontrada e o
+     programa sai do loop para a impressão da nota.
+    **/
     public void imprimeNota() {
 
         boolean notaEncontrada = false;
